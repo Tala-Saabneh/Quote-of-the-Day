@@ -1,0 +1,31 @@
+{
+  "name": "quote-of-the-day",
+  "version": "1.0.0",
+  "description": "NextFlows Academy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dareen-abualhaj/Quote-of-the-Day.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/dareen-abualhaj/Quote-of-the-Day/issues"
+  },
+  "homepage": "https://github.com/dareen-abualhaj/Quote-of-the-Day#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
